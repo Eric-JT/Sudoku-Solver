@@ -1,7 +1,21 @@
 
 .board
-  display: flex
+  display: grid
+  grid-template-columns: repeat(3,100px)
+  grid-template-rows: 100px 100px 100px
+  grid-auto-flow: column
   margin: 0 auto
-  width: 500px
-  height: 500px
+  width: 475px
+  height: 459px
   background-color: $board
+  margin-bottom: 1em
+
+input
+  position: relative
+  color: $input
+  background-color: $input_bg
+  height: 2.6em
+  width: 2.6em
+  text-align: center
+  text-shadow: 1px 1px 2px #f500af
+  border-radius: 15%

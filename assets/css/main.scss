@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico|Rubik');
+
 @import "0-tools/normalize";
 
 @import "1-base/vars";
@@ -5,6 +7,6 @@
 @import "1-base/buttons";
 
 @import "2-modules/board";
-
+@import "2-modules/grids";
 
 @import "0-tools/mediaQ"

@@ -10,3 +10,27 @@
     max-height: 350px;
   }
 }
+
+input {
+  $twidth: 550px;
+  $swidth: 475px;
+  @media screen and (max-width: $twidth){
+    max-width: 2.4em;
+    max-height: 2.4em;
+  }
+  @media screen and (max-width: $swidth){
+    max-width: 1.7em;
+    max-height: 1.7em;
+  }
+}
+
+.grid {
+  $twidth: 550px;
+  $swidth: 475px;
+  @media screen and (max-width: $twidth){
+    margin: 2% 0% 2% 2%;
+  }
+  @media screen and (max-width: $swidth){
+    margin: 3% 0% 2% 2.6%;
+  }
+}
