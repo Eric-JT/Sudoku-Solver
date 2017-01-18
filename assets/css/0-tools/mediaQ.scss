@@ -1,0 +1,12 @@
+.board{
+  $twidth: 550px;
+  $swidth: 475px;
+  @media screen and (max-width: $twidth){
+    max-width: 450px;
+    max-height: 450px;
+  }
+  @media screen and (max-width: $swidth){
+    max-width: 350px;
+    max-height: 350px;
+  }
+}

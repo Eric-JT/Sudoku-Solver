@@ -58,7 +58,8 @@ GULP.task("browser-sync",["sass", "eslint", "babel"], function() {
 */
 GULP.task("cp-index", function() {
   GULP.src("index.html")
-  .pipe(GULP.dest("_site"));
+  .pipe(GULP.dest("_site"))
+  .pipe(BROWSER_SYNC.reload({stream:true}));
 });
 
 GULP.task("watch", function() {
