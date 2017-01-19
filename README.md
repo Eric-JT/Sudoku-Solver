@@ -3,7 +3,7 @@ Working files for a Sudoku Problem Solver
 
 ## Description
 
-I am making this project up as I go.
+I am making this project up as I go. Currently just for looks, project doesn't do anything.
 
 
 ![Project Preview](preview1.png)
@@ -12,7 +12,7 @@ I am making this project up as I go.
 
 ## System Preparation
 
-To use this starter project, you'll need the following things installed on your machine.
+To use this project, you'll need the following things installed on your machine.
 
 1. [NodeJS](http://nodejs.org) - use the installer.
 2. [GulpJS](https://github.com/gulpjs/gulp) - `$ npm install -g gulp` (mac users may need sudo)
