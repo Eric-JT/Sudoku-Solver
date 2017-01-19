@@ -3,7 +3,7 @@ Working files for a Sudoku Problem Solver
 
 ## Description
 
-I am making this project up as I go.
+I am making this project up as I go. Currently just for looks, project doesn't do anything.
 
 
 ![Project Preview](preview1.png)
