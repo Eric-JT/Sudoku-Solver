@@ -2,6 +2,10 @@
 
 @import "0-tools/normalize";
 
+* {
+  box-sizing: border-box;
+}
+
 @import "1-base/vars";
 @import "1-base/base";
 @import "1-base/buttons";
